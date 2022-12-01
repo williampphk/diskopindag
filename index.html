@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://diskopindag.malangkota.go.id/css/styles.min.css" />
     <link rel="stylesheet" href="https://diskopindag.malangkota.go.id/css/boxicons.min.css" />
     <!-- css -->
-    <link rel="stylesheet" href="css/footer-style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -42,7 +42,7 @@
     <!-- topbar end -->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-5" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" alt="DISKOPINDAG MALANG" />
@@ -53,7 +53,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/">Beranda</a>
+              <a class="nav-link" href="/">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/profile">Profil</a>
@@ -71,7 +71,7 @@
               <a class="nav-link" href="/information">Informasi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/event">Event</a>
+              <a class="nav-link active" href="/event">Event</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/news">Berita</a>
@@ -125,7 +125,7 @@
 
     <!-- section 1  -->
     <header class="header home p-5" id="beranda">
-      <div class="container">
+      <div class="container mb-5">
         <h1 class="event text-center text-primary " >Event Terbaru</h1>
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -155,7 +155,7 @@
                           </script>
                         </p>
                         <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat</h1>
-                    <div class="home-greetings__buttons">
+                    <div class="home-greetings__buttons mt-3">
                       <a class="btn btn-primary me-3" href="/profile">Daftar</a>
                       <a id="btn" class="nav-link" href="#kontak"><button type="button" class="btn btn-outline-primary">lihat Event</button></a>
                 
@@ -165,7 +165,7 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <img src="asset/img/3.jpg" alt="1" width="400" />
+                    <img src="asset/img/3.jpg" class="rounded mx-auto d-block" alt="1" width="400" />
                   </div>
                 </div>
               </div>
@@ -192,8 +192,7 @@
                           </script>
                         </p>
                         <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat </h1>
-                    <div class="home-greetings__buttons">
-    
+                    <div class="home-greetings__buttons mt-3">
                       <a class="btn btn-primary me-3" href="/profile">Daftar</a>
                       <a id="btn" class="nav-link" href="#kontak"><button type="button" class="btn btn-outline-primary">lihat Event</button></a>
                 
@@ -202,7 +201,7 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <img src="asset/img/1.jpg" alt="1" width="400" />
+                    <img src="asset/img/1.jpg" class="rounded mx-auto d-block" alt="1" width="400" />
                   </div>
                 </div>
               </div>
@@ -223,10 +222,60 @@
     <!-- section 1 end -->
 
     <!-- daftar event -->
-<div class="daftar-event">
+<section class="daftar-event m-5">
   <h1 class=" text-center text-primary">Daftar Event</h1>
+   <div class="nav-list m-5">
+    <nav class="mynav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Company</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Clients</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <span class="target"></span>
 
-</div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
     <!-- daftar event end -->
   </body>
 </html>
