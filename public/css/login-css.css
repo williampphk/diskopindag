@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    background-color: #dfdfdf;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2552aa;
+}
+.login-form {
+    width: 680px;
+    height: 480px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.card-title {
+    color: #2552aa;
+}
+.btn {
+    background-color: #2552aa;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+}
+.form-control {
+    border-color: #2552aa;
+    height: 56px;
+    width: 506px;
+}
+.card {
+    padding-left: 5rem;
+}
+.fpassword {
+    text-align: center;
+}

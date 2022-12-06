@@ -17,12 +17,15 @@ Route::get('/', function () {
         "title" => "Home"
     ]);
 });
-Route::get('/about', function () {
-    return view ('about', [
-        "title" => "About",
-        "nama" => "william",
-        "email" => "william.pphk@gmail.com",
-        "img" => "stewie.jpg"
+Route::get('/login-admin', function () {
+    return view ('login-admin', [
+       
+
+    ]);
+});
+Route::get('/login', function () {
+    return view ('login-user', [
+       
 
     ]);
 });
