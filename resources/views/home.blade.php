@@ -5,7 +5,7 @@
 <!--  event  terbaru-->
 <body class="header home mt-3s" id="beranda">
       <div class="container mb-5">
-        <h1 class="event text-center text-primary " >Event Terbaru</h1>
+        <h1 class="event text-center " >Event Terbaru</h1>
       </div>
          <div class="slider-event">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -31,7 +31,7 @@
 
 <!-- daftar event -->
 <section class="daftar-event m-5">
-  <h1 class=" text-center text-primary">Daftar Event</h1>
+  <h1 class=" text-center">Daftar Event</h1>
    <div class="nav-list m-5">
     <nav class="mynav">
       <ul>
@@ -80,7 +80,7 @@
 
 <!-- Galeri Event -->
 <section class="daftar-event m-5">
-  <h1 class=" text-center text-primary mb-5">Daftar Event</h1>
+  <h1 class=" text-center mb-5">Daftar Event</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
@@ -106,7 +106,7 @@
 <div class="section">
     <h2>APAKAH ADA YANG INGIN DITANYAKAN ?</h2>
     <div class="faq">
-        <h1 class="text-primary">Beberapa pertanyaan yang sering muncul</h1>
+        <h1>Beberapa pertanyaan yang sering muncul</h1>
         <div class="faq-min">
             <h2>bagaimana cara mendaftar event</h2>
             <hr width=50%>

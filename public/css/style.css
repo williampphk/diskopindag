@@ -38,3 +38,17 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.btn {
+    background-color: #2552aa;
+    color: #ffffff;
+
+    font-size: 13px;
+}
+
+h1 {
+    color: #2552aa;
+}
+
+.faq {
+    color: #2552aa;
+}

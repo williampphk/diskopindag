@@ -55,12 +55,15 @@
             <li class="nav-item">
               <a class="nav-link" href="#kontak">Kontak</a>
             </li>
-            <li class="nav-item ">
-              <a id="btn" class="nav-link ps-3 " href="#kontak"><button type="button" class="btn btn-outline-primary"> Daftar </button></a>
+           
+          </ul>
+          <ul class="navbar-nav ps-5">
+          <li class="nav-item ">
+              <a id="btn" class="nav-link " href="#kontak"><button type="button" class="btn btn-outline-primary"> Daftar </button></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link ps-3" href="#kontak"><button type="button" class="btn btn-primary"> Login </button></a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link " href="login"><button type="button" class="btn btn-primary"> Login </button></a>
+          </li>
           </ul>
         </div>
       </div>

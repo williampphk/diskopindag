@@ -19,38 +19,53 @@ Route::get('/', function () {
 });
 Route::get('/login-admin', function () {
     return view ('login-admin', [
-       
-
     ]);
 });
 Route::get('/login', function () {
     return view ('login-user', [
+    ]);
+});
+// Route::get('/login', [logincontroler::,class, 'index']);
+
+
+
+Route::get('/lupa password', function () {
+    return view ('forgot-pwd', [
+       
+
+    ]);
+});
+Route::get('/buat akun', function () {
+    return view ('register-user', [
+       
+
+    ]);
+});
+Route::get('/upload foto', function () {
+    return view ('upload-img', [
        
 
     ]);
 });
 
-Route::get('/blog', function () {
-    
-$blog_post = [
-    [
-        "title" => "Judul post kedua",
-        "author"=> "udin si",
-        "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex quo magni animi. Esse, vero. Blanditiis, impedit tenetur quas, vel vitae tempore ducimus a exercitationem labore ipsum hic sint dolor earum aperiam dicta ex provident. Veritatis tempora libero labore dolor nihil pariatur recusandae odit corrupti! Facilis eos sequi, enim, nulla libero, similique in vitae quo praesentium inventore perferendis quasi assumenda? Animi earum tenetur velit molestias tempore nulla possimus, ipsum mollitia. Quisquam necessitatibus consectetur laboriosam sit nihil unde error vitae earum!"
-    ],
+// Route::get('/blog', function () { 
+// $blog_post = [
+//     [
+//         "title" => "Judul post kedua",
+//         "author"=> "udin si",
+//         "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex quo magni animi. Esse, vero. Blanditiis, impedit tenetur quas, vel vitae tempore ducimus a exercitationem labore ipsum hic sint dolor earum aperiam dicta ex provident. Veritatis tempora libero labore dolor nihil pariatur recusandae odit corrupti! Facilis eos sequi, enim, nulla libero, similique in vitae quo praesentium inventore perferendis quasi assumenda? Animi earum tenetur velit molestias tempore nulla possimus, ipsum mollitia. Quisquam necessitatibus consectetur laboriosam sit nihil unde error vitae earum!"
+//     ],
 
-    [
-        "title" => "Judul post pertama",
-        "author"=> "William Pakpahan",
-        "body" =>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex quo magni animi. Esse, vero. Blanditiis, impedit tenetur quas, vel vitae tempore ducimus a exercitationem labore ipsum hic sint dolor earum aperiam dicta ex provident. Veritatis tempora libero labore dolor nihil pariatur recusandae odit corrupti! Facilis eos sequi, enim, nulla libero, similique in vitae quo praesentium inventore perferendis quasi assumenda? Animi earum tenetur velit molestias tempore nulla possimus, ipsum mollitia. Quisquam necessitatibus consectetur laboriosam sit nihil unde error vitae earum!"
-    ]
-];
-
-
-    return view ('posts',[
-        "title" => "blog",
-        "blog" => $blog_post
-    ]);
-});
+//     [
+//         "title" => "Judul post pertama",
+//         "author"=> "William Pakpahan",
+//         "body" =>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex quo magni animi. Esse, vero. Blanditiis, impedit tenetur quas, vel vitae tempore ducimus a exercitationem labore ipsum hic sint dolor earum aperiam dicta ex provident. Veritatis tempora libero labore dolor nihil pariatur recusandae odit corrupti! Facilis eos sequi, enim, nulla libero, similique in vitae quo praesentium inventore perferendis quasi assumenda? Animi earum tenetur velit molestias tempore nulla possimus, ipsum mollitia. Quisquam necessitatibus consectetur laboriosam sit nihil unde error vitae earum!"
+//     ]
+// ];
+//     return view ('posts',[
+//         "title" => "blog",
+//         "blog" => $blog_post
+//     ]);
+// });
 
 
