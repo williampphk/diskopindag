@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login | User</title>
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/regis.css">
   </head>
@@ -14,8 +14,8 @@
       <img src="img/logo-diskopindag.png" class="logo  mx-auto d-block " alt="logo">
     <form>
       <h1 class="card-title my-1 fs-3 fw-bold pt-2 mb-3">Buat Akun</h1>
-      <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label mb-2">Nama lengkap</label>
+        <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label mb-2">Nama lengkap</label>
       <input type="text" placeholder="Masukan nama lengkap anda" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp">
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label mb-2">Alamat lengkap</label>

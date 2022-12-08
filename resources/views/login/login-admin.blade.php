@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login | Admin</title>
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login-css.css">
   </head>
@@ -21,7 +21,7 @@
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label mb-2">Password</label>
     <input type="password" placeholder="Masukan password anda" class="form-control mb-5" id="exampleInputPassword1">
-  </div>
+</div>
 
   <div class="container">
     @yield('container')

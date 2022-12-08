@@ -6,7 +6,7 @@
 <body class="header home mt-3s" id="beranda">
       <div class="container mb-5">
         <h1 class="event text-center " >Event Terbaru</h1>
-      </div>
+      </div> 
          <div class="slider-event">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -100,6 +100,7 @@
     </div>
 </section>
 <!-- Galeri Event end -->
+
 
 <!-- faq -->
 <section id="section" class="text-center" >
